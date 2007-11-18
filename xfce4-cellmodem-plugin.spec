@@ -1,24 +1,23 @@
-%define oname xfce4-cellmodem-plugin
-
 Summary:	The cellmodem plugin is a monitoring plugin for cellular modems
-Name:		xfce-cellmodem-plugin
+Name:		xfce4-cellmodem-plugin
 Version:	0.0.5
-Release:	%mkrel 1
-License:	GPL
+Release:	%mkrel 2
+License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cellmodem-plugin
-Source0:	http://goodies.xfce.org/releases/xfce4-cellmodem-plugin/%{oname}-%{version}.tar.bz2
+Source0:	http://goodies.xfce.org/releases/xfce4-cellmodem-plugin/%{name}-%{version}.tar.bz2
 Requires:	xfce-panel >= 4.4.1
 BuildRequires:	xfce-panel-devel >= 4.4.1
 BuildRequires:	libusb-devel
 BuildRequires:	perl(XML::Parser)
+Obsoletes:	xfce-cellmodem-plugin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The cellmodem plugin is a monitoring plugin for cellular modems.
 
 %prep
-%setup -qn %{oname}-%{version}
+%setup -q
 
 %build
 %configure2_5x
@@ -30,12 +29,12 @@ The cellmodem plugin is a monitoring plugin for cellular modems.
 
 %makeinstall_std
 
-%find_lang %{oname}
+%find_lang %{name}
 
 %clean
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
-%files -f %{oname}.lang
+%files -f %{name}.lang
 %defattr(-,root,root)
 %doc AUTHORS README ChangeLog
 %{_libdir}/xfce4/panel-plugins/xfce4-cellmodem-plugin
