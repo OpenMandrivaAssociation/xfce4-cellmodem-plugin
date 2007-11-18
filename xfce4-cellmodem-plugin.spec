@@ -6,8 +6,8 @@ License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cellmodem-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-cellmodem-plugin/%{name}-%{version}.tar.bz2
-Requires:	xfce-panel >= 4.4.1
-BuildRequires:	xfce-panel-devel >= 4.4.1
+Requires:	xfce4-panel >= 4.4.1
+BuildRequires:	xfce4-panel-devel >= 4.4.1
 BuildRequires:	libusb-devel
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-cellmodem-plugin
