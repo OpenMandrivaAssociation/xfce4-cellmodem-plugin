@@ -11,7 +11,6 @@ BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libusb-devel
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-cellmodem-plugin
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The cellmodem plugin is a monitoring plugin for cellular modems.
