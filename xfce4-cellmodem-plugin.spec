@@ -1,4 +1,4 @@
-Summary:	The cellmodem plugin is a monitoring plugin for cellular modems
+Summary:	Monitoring plugin for cellular modems
 Name:		xfce4-cellmodem-plugin
 Version:	0.0.5
 Release:	%mkrel 2
