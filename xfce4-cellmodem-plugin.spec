@@ -1,7 +1,7 @@
 Summary:	Monitoring plugin for cellular modems
 Name:		xfce4-cellmodem-plugin
 Version:	0.0.5
-Release:	%mkrel 3
+Release:	%mkrel 5
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 Url:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cellmodem-plugin
