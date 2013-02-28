@@ -24,6 +24,8 @@ The cellmodem plugin is a monitoring plugin for cellular modems.
 %patch0 -p1
 
 %build
+sed -i -e 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' configure.ac
+
 # required for patch0
 xdt-autogen
 
