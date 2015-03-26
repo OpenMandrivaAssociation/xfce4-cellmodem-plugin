@@ -39,5 +39,5 @@ xdt-autogen
 
 %files -f %{name}.lang
 %doc AUTHORS README ChangeLog
-%{_libdir}/xfce4/panel-plugins/xfce4-cellmodem-plugin
+%{_libexecdir}/xfce4/panel-plugins/xfce4-cellmodem-plugin
 %{_datadir}/xfce4/panel-plugins/cellmodem.desktop
