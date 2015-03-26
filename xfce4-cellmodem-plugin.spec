@@ -29,7 +29,7 @@ sed -i -e 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' configure.ac
 # required for patch0
 xdt-autogen
 
-%configure2_5x
+%configure
 %make
 
 %install
