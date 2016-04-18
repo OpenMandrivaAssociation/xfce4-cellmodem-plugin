@@ -1,3 +1,5 @@
+%define _disable_rebuild_configure 1
+
 Summary:	Monitoring plugin for cellular modems
 Name:		xfce4-cellmodem-plugin
 Version:	0.0.5
