@@ -6,7 +6,7 @@ Version:	0.0.5
 Release:	14
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-Url:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cellmodem-plugin
+Url:		https://goodies.xfce.org/projects/panel-plugins/xfce4-cellmodem-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-cellmodem-plugin/%{name}-%{version}.tar.bz2
 Patch0:		xfce4-cellmodem-plugin-0.0.5-rosa-linkage.patch
 Requires:	xfce4-panel >= 4.4.2
